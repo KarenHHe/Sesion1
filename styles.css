@@ -1,0 +1,24 @@
+body {
+    background-image: linear-gradient(#FFFFFF, rgb(255, 122, 89));
+}
+h1 {
+  color: rosybrown;
+  text-align: center;
+}
+h2 {
+  color: rgb(180, 83, 4);
+  text-align: center;
+}
+h3 {
+  color: rgb(128, 41, 113);
+}
+p {
+    color: #8b8b8bcc;
+    font-family: verdana;
+    font-size: 15px;
+    }
+
+button {
+    color: #fff;
+    background-color: #025157;
+}
