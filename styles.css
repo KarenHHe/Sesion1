@@ -12,6 +12,7 @@ h2 {
 h3 {
   color: rgb(128, 41, 113);
 }
+
 p {
     color: #8b8b8bcc;
     font-family: verdana;
@@ -21,4 +22,68 @@ p {
 button {
     color: #fff;
     background-color: #025157;
+}
+
+.header {
+  margin: 40px 20px 0;
+  font-size: 0;
+  height: 45px;
+  font-family: sans-serif;
+}
+
+.header > * {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 45px;
+}
+
+.logo > img {
+  width: 15%;
+  vertical-align: middle;
+}
+
+.navbar {
+  width: 70%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  color: #025157;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.actions {
+  width: 15%;
+  text-align: right;
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.actions > * {
+  margin-right: 10px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.actions a {
+  color: #67b54b;
+}
+
+.actions button {
+  color: white;
+  background-color: #67b54b;
+  padding: 12px 14px 12px 14px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.main {
+  margin-top: 140px;
+  text-align: center;
 }
